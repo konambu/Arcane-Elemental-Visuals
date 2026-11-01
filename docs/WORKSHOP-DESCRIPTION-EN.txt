@@ -1,28 +1,24 @@
 [h1]Arcane Elemental Visuals[/h1]
-A visual add-on for Arcane Magic - Wizards of Kenshi.
+A visual add-on that gives Arcane Magic's spells new fire and rock effects.
+
+[h2]Effects[/h2]
 [list]
-[*]Arcane Missile: red-orange fireballs, embers, a larger backward flame and impact fire.
-[*]Earth Spike: matte branched rock, about 1.5x exposed height, dust and debris.
-[*]Whirlwind: a spiral of fire, smoke and embers.
+[*]Arcane Missile: fireballs, embers, and a trail of flame.
+[*]Earth Spike: branching rock spikes and dust.
+[*]Whirlwind: a vortex of fire and smoke.
 [/list]
-Damage, mana, attack radius, speed and unlock conditions are unchanged.
+Damage, mana costs, and spell unlocks are unchanged.
 
 [h2]Requirements[/h2]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3784221846]Arcane Magic - Wizards of Kenshi[/url]
-[url=https://github.com/BFrizzleFoShizzle/RE_Kenshi#installation]RE_Kenshi, including KenshiLib[/url] — install this runtime separately.
-Load ArcaneMagic.mod before Arcane Elemental Visuals.mod. Fully restart after installation or updates.
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3784221846]Arcane Magic - Wizards of Kenshi[/url]
+[*][url=https://github.com/BFrizzleFoShizzle/RE_Kenshi#installation]RE_Kenshi[/url] (separate installation required)
+[/list]
+Load ArcaneMagic.mod before Arcane Elemental Visuals.mod.
 
-[h2]Beta compatibility[/h2]
-Inspected runtime: Kenshi 1.0.65 x64, RE_Kenshi 0.3.5, KenshiLib 0.5.0.
-Original-mod/engine updates may require a compatibility update.
-The fireball body can remain at a hit location. The player has confirmed the new v4 missile flame's appearance in Kenshi; subscription installation still needs end-to-end verification.
-Standalone resource previews are not game screenshots; game lighting and interior masking can differ.
+[h2]Known issue[/h2]
+The fireball can sometimes remain visible for a while after impact.
 
-[h2]Source and credits[/h2]
-Special thanks to juubi23 for creating Arcane Magic - Wizards of Kenshi and allowing others to build on and use parts of the project. This add-on would not exist without that work.
-Complete corresponding source for both DLLs and build instructions are included in source/.
-Code: GPLv3. See CREDITS.txt for separate asset attribution and permissions.
-Arcane Magic and adapted meshes/normal map: juubi23.
-Kenshi and stock visual resources: Lo-Fi Games.
-RE_Kenshi / KenshiLib: BFrizzleFoShizzle and contributors.
-Version 0.1.0-beta1
+[h2]Credits[/h2]
+Special thanks to juubi23 for creating Arcane Magic and allowing derivative works!
+The plugin source code is available on [url=https://github.com/konambu/Arcane-Elemental-Visuals]GitHub[/url] (GPLv3).

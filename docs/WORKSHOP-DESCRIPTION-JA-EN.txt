@@ -1,0 +1,53 @@
+[h1]Arcane Elemental Visuals[/h1]
+
+[h2]English[/h2]
+A visual add-on that gives Arcane Magic's spells new fire and rock effects.
+
+[h2]Effects[/h2]
+[list]
+[*]Arcane Missile: fireballs, embers, and a trail of flame.
+[*]Earth Spike: branching rock spikes and dust.
+[*]Whirlwind: a vortex of fire and smoke.
+[/list]
+Damage, mana costs, and spell unlocks are unchanged.
+
+[h2]Requirements[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3784221846]Arcane Magic - Wizards of Kenshi[/url]
+[*][url=https://github.com/BFrizzleFoShizzle/RE_Kenshi#installation]RE_Kenshi[/url] (separate installation required)
+[/list]
+Load ArcaneMagic.mod before Arcane Elemental Visuals.mod.
+
+[h2]Known issue[/h2]
+The fireball can sometimes remain visible for a while after impact.
+
+[h2]Credits[/h2]
+Special thanks to juubi23 for creating Arcane Magic and allowing derivative works!
+The plugin source code is available on [url=https://github.com/konambu/Arcane-Elemental-Visuals]GitHub[/url] (GPLv3).
+
+[hr][/hr]
+
+[h2]日本語[/h2]
+Arcane Magicの魔法エフェクトを、炎と岩の表現に変更する追加MODです。
+
+[h2]変更点[/h2]
+[list]
+[*]Arcane Missile：火球と火の粉、炎の軌跡。
+[*]Earth Spike：枝分かれした岩のスパイクと土煙。
+[*]Whirlwind：炎と煙が渦巻く火の竜巻。
+[/list]
+威力やマナ消費、魔法の解放条件は変わりません。
+
+[h2]必要なもの[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3784221846]Arcane Magic - Wizards of Kenshi[/url]
+[*][url=https://github.com/BFrizzleFoShizzle/RE_Kenshi#installation]RE_Kenshi[/url]（別途インストールが必要です）
+[/list]
+ロード順は ArcaneMagic.mod → Arcane Elemental Visuals.mod にしてください。
+
+[h2]既知の問題[/h2]
+火球の本体が着弾後もしばらく残る場合があります。
+
+[h2]クレジット[/h2]
+Arcane Magicを制作し、派生制作を許可してくださったjuubi23さんに感謝します！
+プラグインのソースコードは[url=https://github.com/konambu/Arcane-Elemental-Visuals]GitHub[/url]に公開しています（GPLv3）。
