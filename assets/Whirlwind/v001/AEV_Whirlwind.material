@@ -1,0 +1,27 @@
+// Ordinary Entity shell. Basic_Texture_VP does not require vertex colours.
+// The original mesh is already rotated by Arcane Magic once per second.
+material EV_Whirlwind_Charcoal_v001
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref Basic_Texture_VP {}
+            fragment_program_ref Basic_Texture_FP
+            {
+                param_named colour float4 0.08 0.025 0.004 1
+            }
+            lighting off
+            scene_blend add
+            depth_check on
+            depth_write off
+            cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture Flame1.png
+                tex_address_mode wrap
+            }
+        }
+    }
+}
