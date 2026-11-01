@@ -1,0 +1,21 @@
+import * from "buildings.material"
+material AEV_Missile_Fire : Building_Emissive
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref Object_VP {}
+            fragment_program_ref AEV_BallSurface_FP {}
+            texture_unit diffuseMap
+            {
+                texture AEV_Fire.dds
+                scroll_anim -1.2 0.10
+            }
+            texture_unit normalMap
+            {
+                texture AEV_FireNeutralNormal.dds
+            }
+        }
+    }
+}

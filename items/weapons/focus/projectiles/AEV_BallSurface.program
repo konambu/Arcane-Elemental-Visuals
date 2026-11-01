@@ -1,0 +1,12 @@
+fragment_program AEV_BallSurface_FP hlsl
+{
+    source AEV_BallSurface.hlsl
+    entry_point fire_surface
+    target ps_4_0
+    default_params
+    {
+        param_named_auto fireTime time_0_x 60
+        param_named_auto cameraPos camera_position
+        param_named_auto farClip far_clip_distance
+    }
+}
