@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.mod -text
+*.dll -text
+*.mesh -text
+*.dds -text
+*.png -text
+*.jpg -text
+*.zip -text

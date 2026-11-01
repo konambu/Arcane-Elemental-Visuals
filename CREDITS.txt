@@ -1,0 +1,44 @@
+Arcane Elemental Visuals 0.1.0-beta1
+Copyright (c) 2026 Arcane Elemental Visuals contributors
+
+ORIGINAL ADD-ON CODE
+The two native plugins, complete corresponding source, build scripts and
+original shader code are distributed under GPL-3.0-only. Full license: COPYING.
+Earlier original-code MIT notice: source/MIT-ORIGINAL-NOTICE.txt.
+
+ORIGINAL ADD-ON RESOURCES
+Original fireball geometry, generated fire/ember/rock textures and original
+particle/material configurations are provided under GPL-3.0-only, except for
+the third-party resources identified below.
+
+ARCANE MAGIC - WIZARDS OF KENSHI
+Author: juubi23 (juubi23-dev)
+https://steamcommunity.com/sharedfiles/filedetails/?id=3784221846
+https://github.com/juubi23-dev/ArcaneMagicNative
+
+Adapted source assets:
+- assets/EarthSpike/v001/AM_EarthSpike_v001.mesh: geometry, material renamed.
+- assets/EarthSpike/v001/AEV_EarthRock_v3.mesh: geometry with new branches.
+- assets/EarthSpike/v001/AEV_EarthSpike_Normal.dds: original normal map.
+- assets/Whirlwind/v001/AM_Whirlwind_v001.mesh: mesh with adjusted height/material.
+
+Used under the author's permission to build on and use parts of the project
+on the original Workshop page, checked 2026-11-01. Ownership remains with the
+original rights holder; this add-on does not relicense these original assets.
+Arcane Magic is required. Its complete mod and native DLL are not bundled.
+
+KENSHI
+Lo-Fi Games: game and built-in fire/smoke/dust resources.
+Stock texture/material names reference the installed game.
+AEV_HolyFireBurst.pu adapts the stock FlameStarterLargePot configuration.
+No game executable, renderer DLL or stock texture bundle is distributed.
+Original game resources remain the property of their rights holders.
+
+RE_KENSHI / KENSHILIB
+BFrizzleFoShizzle and contributors
+https://github.com/BFrizzleFoShizzle/RE_Kenshi
+https://github.com/BFrizzleFoShizzle/KenshiLib
+Runtime dependencies, GPLv3. Their binaries are not bundled here.
+
+This is an unofficial community add-on, not an official release or endorsement
+by the original mod author or Lo-Fi Games.
