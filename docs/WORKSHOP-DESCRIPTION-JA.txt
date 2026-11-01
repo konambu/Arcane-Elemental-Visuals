@@ -1,4 +1,4 @@
-[h1]Arcane Elemental Visuals[/h1]
+[h1]Arcane Magic - Elemental Visuals[/h1]
 Arcane Magicの魔法エフェクトを、炎と岩の表現に変更する追加MODです。
 
 [h2]変更点[/h2]

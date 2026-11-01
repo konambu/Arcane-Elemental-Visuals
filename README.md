@@ -1,4 +1,6 @@
-# Arcane Elemental Visuals
+# Arcane Magic - Elemental Visuals
+
+Steam Workshop: [Arcane Magic - Elemental Visuals](https://steamcommunity.com/sharedfiles/filedetails/?id=3832001707). The internal mod and folder name remains `Arcane Elemental Visuals`.
 
 Version 0.1.0-beta1 — a visual add-on for Arcane Magic - Wizards of Kenshi.
 

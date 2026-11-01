@@ -1,4 +1,4 @@
-[h1]Arcane Elemental Visuals[/h1]
+[h1]Arcane Magic - Elemental Visuals[/h1]
 
 [h2]English[/h2]
 A visual add-on that gives Arcane Magic's spells new fire and rock effects.
