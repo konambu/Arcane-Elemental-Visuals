@@ -1,0 +1,20 @@
+{
+  "package_file_count": 55,
+  "package_bytes": 10062802,
+  "zip_bytes": 7606509,
+  "all_package_hashes": "pass",
+  "archive_contents": "pass",
+  "jpeg_preview": "512x512, 21829 bytes",
+  "corresponding_source": "complete; both native DLLs reproduced exactly from extracted ZIP",
+  "model_sources": "three supplied meshes reproduced exactly",
+  "isolated_test_suites": 6,
+  "numbered_folder_redirect": "pass in isolated loader test",
+  "actual_kenshi_started_by_agent": false,
+  "missile_flame_appearance_confirmed_by_player": true,
+  "installed_game_changed": false,
+  "steam_uploaded": false,
+  "remaining": [
+    "Minimal dependency configuration test",
+    "Real Workshop subscription and FCS path resolution test"
+  ]
+}

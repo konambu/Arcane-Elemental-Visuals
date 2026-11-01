@@ -1,0 +1,31 @@
+[h1]Arcane Elemental Visuals[/h1]
+Arcane Magic - Wizards of Kenshiの3つの魔法を、土と炎のエフェクトへ変更する追加MODです。
+
+[h2]変更点[/h2]
+[list]
+[*]Arcane Missile：赤橙の火球、火の粉、後方へ流れる大きめの炎、着弾時の炎。
+[*]Earth Spike：光沢を抑えた茶褐色の岩。露出する高さを約1.5倍にし、上部に3本の枝を追加。根元に土煙と小石。
+[*]Whirlwind：炎・煙・火の粉がらせん状に舞う火の竜巻。
+[/list]
+威力・マナ・攻撃範囲・解放条件は変更しません。元MODのファイルは上書きしません。
+
+[h2]必須環境・導入[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3784221846]Arcane Magic - Wizards of Kenshi[/url]
+[url=https://github.com/BFrizzleFoShizzle/RE_Kenshi#installation]RE_Kenshiと付属のKenshiLib[/url]。RE_Kenshiは外部導入が必要です。
+ロード順：ArcaneMagic.mod → Arcane Elemental Visuals.mod
+導入・更新後はゲームを完全に終了してから起動してください。
+
+[h2]ベータ版の確認状況[/h2]
+対象環境：Kenshi 1.0.65 x64実行環境、RE_Kenshi 0.3.5、KenshiLib 0.5.0。
+元MODや描画環境の更新には追加対応が必要になる場合があります。
+火球の本体が着弾位置に残る場合があります。
+v4のミサイルの追加炎は実ゲーム内で見た目を確認済みです。Workshop版は購読導入からの確認が残っています。
+紹介画像が単独描画の場合は素材プレビューであり、実ゲームのスクリーンショットではありません。
+
+[h2]ソース・クレジット[/h2]
+2本のDLLの対応ソースとビルド手順をsourceフォルダに同梱しています。
+コード：GPLv3。素材の帰属・利用条件はCREDITS.txtを参照してください。
+原作・改変元メッシュ／法線：juubi23。
+Kenshi・既存の炎と煙の素材：Lo-Fi Games。
+RE_Kenshi / KenshiLib：BFrizzleFoShizzleと貢献者の皆さん。
+バージョン：0.1.0-beta1

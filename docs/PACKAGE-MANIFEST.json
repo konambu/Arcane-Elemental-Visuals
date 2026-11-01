@@ -1,0 +1,293 @@
+{
+  "version": "0.1.0-beta1",
+  "mod_folder": "Arcane Elemental Visuals",
+  "uploaded": false,
+  "status": "local review package; v4 missile appearance confirmed by player; subscription test pending",
+  "missile_flame_user_confirmed": true,
+  "file_count": 55,
+  "total_bytes": 10062802,
+  "required_workshop_items": [
+    3784221846
+  ],
+  "external_runtime": "RE_Kenshi including KenshiLib",
+  "dll_source_available": true,
+  "dll_hashes_match_accepted_runtime": true,
+  "fcs_records_unchanged": true,
+  "files": [
+    {
+      "path": "Arcane Elemental Visuals.mod",
+      "bytes": 484,
+      "sha256": "c349b9a0fc7b8f243bf5ae8a499bf14115a077adfcd529d7fcdf83d47dc6a9be"
+    },
+    {
+      "path": "assets/EarthSpike/v001/AEV_EarthRock_v2.dds",
+      "bytes": 262272,
+      "sha256": "58250788d3ff7696b725d2a4fd311f38fdc1b0431889f6d737573d0bb9dc58ce"
+    },
+    {
+      "path": "assets/EarthSpike/v001/AEV_EarthRock_v3.mesh",
+      "bytes": 92011,
+      "sha256": "8bb153c160200090973df84088328abce80c42db674a84d46f17af0fd117ba30"
+    },
+    {
+      "path": "assets/EarthSpike/v001/AEV_EarthSpike.material",
+      "bytes": 617,
+      "sha256": "1da9775f263d34a70e07a1907feff67a4862d6e4da739483a88f19e679a7635a"
+    },
+    {
+      "path": "assets/EarthSpike/v001/AEV_EarthSpike_Normal.dds",
+      "bytes": 349680,
+      "sha256": "9d9d9ccc651de6581a4a8eea1e5dae636633dff46a66aa0f40b8ab7036706bcf"
+    },
+    {
+      "path": "assets/EarthSpike/v001/AM_EarthSpike_v001.mesh",
+      "bytes": 123148,
+      "sha256": "4cbd6bcdd0f13338dc687ed6f695146a6bda4b30f3907874ddf9598aeeb6779e"
+    },
+    {
+      "path": "assets/Whirlwind/v001/AEV_Whirlwind.material",
+      "bytes": 734,
+      "sha256": "4f671ac83827cefb6f6da80295fc6fb73ebba5f7dd788daa3d985830e9ff9e82"
+    },
+    {
+      "path": "assets/Whirlwind/v001/AM_Whirlwind_v001.mesh",
+      "bytes": 778778,
+      "sha256": "33871a0c09ec8176853a7ed1e1efa89bde9e5b7e7f7acd5cce31a95a65bbc005"
+    },
+    {
+      "path": "COPYING",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "CREDITS.txt",
+      "bytes": 2063,
+      "sha256": "ef99ac23037570044df583b15e66e1c902a1b0cd00b20dd110d456918c1886ee"
+    },
+    {
+      "path": "items/weapons/focus/projectiles/AEV_BallSurface.hlsl",
+      "bytes": 1137,
+      "sha256": "ec638378c61b6a0e7d8e861055c7e6050206cea8c4d153fdc26adf9c8bc1ecb4"
+    },
+    {
+      "path": "items/weapons/focus/projectiles/AEV_BallSurface.program",
+      "bytes": 303,
+      "sha256": "c196b221ace8c01337f9a692de07fa2c5cb2dcdd1cfa80b887e9ffef4631b221"
+    },
+    {
+      "path": "items/weapons/focus/projectiles/AEV_Fire.dds",
+      "bytes": 262272,
+      "sha256": "638da8d9b6a1a59f8834d53b08f3fa08f06a07404203cea0ac49f305eb05f4db"
+    },
+    {
+      "path": "items/weapons/focus/projectiles/AEV_fire_missile.material",
+      "bytes": 516,
+      "sha256": "7227313c72dbe68488723626915aff29efe2d53408270d6ee99c3e56b76838d7"
+    },
+    {
+      "path": "items/weapons/focus/projectiles/AEV_fire_missile.mesh",
+      "bytes": 24920,
+      "sha256": "2fa53b79c91a140ae3b52e47d5109e8947c3428222c2b03d751b018ac099b2fa"
+    },
+    {
+      "path": "items/weapons/focus/projectiles/AEV_FireNeutralNormal.dds",
+      "bytes": 144,
+      "sha256": "74e62ea7f287052d276346bafd7f6ca284e3240578bc3322529d738babf5415c"
+    },
+    {
+      "path": "particles/materials/AEV_Ember.dds",
+      "bytes": 262272,
+      "sha256": "8479a05b2638ddceaa3499810e1f634d741a76fc6ce55394af2a35690ca82ee3"
+    },
+    {
+      "path": "particles/materials/AEV_Embers.material",
+      "bytes": 567,
+      "sha256": "602e2d5b0f38d6e4e7114e30286b1c910d4af2daf65e67de24c3aaafde932ccc"
+    },
+    {
+      "path": "particles/scripts/AEV_EarthBurst.pu",
+      "bytes": 1859,
+      "sha256": "440e6f1cf9aa7b820ab97a2cb9c5eee883037d07694352600649197f97e83c0e"
+    },
+    {
+      "path": "particles/scripts/AEV_Embers.pu",
+      "bytes": 560,
+      "sha256": "aa925d996b15587c97cdf6ce3fc353c287d91cca69b5dad6c57121e574d396e4"
+    },
+    {
+      "path": "particles/scripts/AEV_FireVortex.pu",
+      "bytes": 7767,
+      "sha256": "64be4a0302a784e96ec8517c88379afd4362f24ef738db6ceeccd71c13e5a8b5"
+    },
+    {
+      "path": "particles/scripts/AEV_HolyFireBurst.pu",
+      "bytes": 12563,
+      "sha256": "b076b2a5e4b6d9cebe7ae26d8ab9f2bb195c8d9b64f3107987791e5dc1662b52"
+    },
+    {
+      "path": "particles/scripts/AEV_MissileFlame.pu",
+      "bytes": 2768,
+      "sha256": "84767794092f9efc8973218a502064879d802384fb3bea69b1c68e0248bf64a4"
+    },
+    {
+      "path": "plugin/AEV_EarthStorm-v4.dll",
+      "bytes": 31744,
+      "sha256": "bb9ff6c42b513d658ff2dc8a8cf8195b4202c5ee2badec5ae17d89016ea610c9"
+    },
+    {
+      "path": "plugin/ElementalVisuals-v0.23-HolyFire-3x.dll",
+      "bytes": 34304,
+      "sha256": "4d61fb3aa3d94b74fe0be01d2a7d22ec48aa8cbeb9865abe8f58bb2a3bc961cc"
+    },
+    {
+      "path": "plugin/MissileEmbers.ini",
+      "bytes": 39,
+      "sha256": "f6ae1597701cc0be6ac856c2a7109c1c378327319b2f97ebd10e11d3151ed2b1"
+    },
+    {
+      "path": "RE_Kenshi.json",
+      "bytes": 117,
+      "sha256": "7f163cb732b91e3d3c15a5d1ffd889a943a6db076ad0c8faaeb12ce500b8082a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3448,
+      "sha256": "f51986eda5fee9e523004b2a8351937c3770f95d4fbac33f1e0314e3a6126294"
+    },
+    {
+      "path": "source/asset_sources/earth-rock-v2.png",
+      "bytes": 4182736,
+      "sha256": "03e397458db7e05a084c462186ecd996f6e2fb19e225d6c51d971bf33d6335bf"
+    },
+    {
+      "path": "source/asset_sources/ember.png",
+      "bytes": 453755,
+      "sha256": "d3585c97707d3a1d75cb25900bb1eddb4ba56d0efa7f04f56f4bc7508d7fe67d"
+    },
+    {
+      "path": "source/asset_sources/fire.png",
+      "bytes": 2182363,
+      "sha256": "d64e7ddd993d919f3e24ac6eea6e0398aa361434dfe3dfe80e1e67e8269ce37b"
+    },
+    {
+      "path": "source/asset_sources/whirlwind-before-fire.mesh",
+      "bytes": 778778,
+      "sha256": "b0e1dff20f5730ee1253333cc70cb28f9c223d89cf42e704ac0a3cec60417513"
+    },
+    {
+      "path": "source/asset_tools/fire_vortex_mesh.py",
+      "bytes": 1862,
+      "sha256": "dc7aa39d5ae4d9cb448f2f8fba4b081326ed601baf070e45f8d0ffb00a96be32"
+    },
+    {
+      "path": "source/asset_tools/fireball_mesh.py",
+      "bytes": 2034,
+      "sha256": "4ac0d5368a80043e4dd2894788528f8ccd9a71995499fd1f3ca888fdec23ff77"
+    },
+    {
+      "path": "source/asset_tools/read_mesh.py",
+      "bytes": 2707,
+      "sha256": "cf4cc3a9fb88f18602e107735691a0b1e4159df9afd54a68cf5730ce03363a7d"
+    },
+    {
+      "path": "source/asset_tools/README.md",
+      "bytes": 1229,
+      "sha256": "a1676f1d6c417071e3bc235dafb2ce621b05bd4a111fe780984bdc15c71d62f6"
+    },
+    {
+      "path": "source/asset_tools/regenerate_meshes.py",
+      "bytes": 639,
+      "sha256": "31c63fd1f95e6ea2d44e4cffb9ba2b95a9b510240aa2e094f3a75903afcac3dd"
+    },
+    {
+      "path": "source/asset_tools/rock_spike_mesh.py",
+      "bytes": 4348,
+      "sha256": "374c9481e66d66ae24c23d8648825acc2cf6a6933039a0e18f1554428cbf27f3"
+    },
+    {
+      "path": "source/BUILD.md",
+      "bytes": 3310,
+      "sha256": "f05e6eb7c7339b50c80b999f470869fe5430466db1b98e28476bdd32f6e3dbf5"
+    },
+    {
+      "path": "source/build_release.py",
+      "bytes": 7672,
+      "sha256": "250aa282c075f4ff20dafd20d91f7e5664b2501ae6e47886ccebb1d1127495a9"
+    },
+    {
+      "path": "source/COPYING",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "source/EarthRock.inl",
+      "bytes": 4012,
+      "sha256": "3e04716fc7a9f503913ede447fcb96617e1a271f9fde147a9e1367510ebea443"
+    },
+    {
+      "path": "source/ElementalCompanion.c",
+      "bytes": 24358,
+      "sha256": "4f4ce4950b31038123fd94434604037c376d2ea281188f21e60797012168e574"
+    },
+    {
+      "path": "source/ElementalCompanion.def",
+      "bytes": 44,
+      "sha256": "e73224b3ef5f728ad61646a303b1ce0dca092d68393759ef0efb1b9cc53e316f"
+    },
+    {
+      "path": "source/ElementalVisuals.c",
+      "bytes": 4315,
+      "sha256": "f5954aa728eb5fa2f9729bf837fa59106a5b8084d5f1683fc3899b09931d7b97"
+    },
+    {
+      "path": "source/ElementalVisuals.def",
+      "bytes": 69,
+      "sha256": "0e870df60bf6e8ab73a2272deb971e4e52eaebf90933a1d2d2d74e74dfe16076"
+    },
+    {
+      "path": "source/FireVortex.inl",
+      "bytes": 5903,
+      "sha256": "4a2a0bc63aeee4aa231229423ad3b34eba4523f3e15785c75c863567a65f7d2e"
+    },
+    {
+      "path": "source/FireVortexTests.inl",
+      "bytes": 10415,
+      "sha256": "ff8d4f45310ba913aaf73734389c5fb14a695556cfd8ec9781ba78241213a17d"
+    },
+    {
+      "path": "source/kernel32.def",
+      "bytes": 233,
+      "sha256": "76f35eafacc72381c0f1ebf06f029146db0f6dd92fb78770d65b3c385d40a30b"
+    },
+    {
+      "path": "source/LICENSE.txt",
+      "bytes": 1261,
+      "sha256": "ded9b04b3aa86578e747d655e82f405c14a302a0cde6725e356776e7c9631027"
+    },
+    {
+      "path": "source/MissileEmbers.c",
+      "bytes": 48611,
+      "sha256": "03726ff9bdfe02464e5e55232243a577c1a6227c4c4c8b0555b8469da90a94a7"
+    },
+    {
+      "path": "source/MissileFlame.inl",
+      "bytes": 6804,
+      "sha256": "55693a70c1e9abc536240993ae1666e0af95f8bf64de23bd6dab9515ae44efd4"
+    },
+    {
+      "path": "source/MissileFlameTests.inl",
+      "bytes": 6520,
+      "sha256": "09d794bb2ae76943f5457263880119488e499516a996501bf8fdf5f39824589e"
+    },
+    {
+      "path": "source/MIT-ORIGINAL-NOTICE.txt",
+      "bytes": 1392,
+      "sha256": "629bad9160fe14a9e65c16b3846eb5b5f0ecd64cef008eb0f71da4dbb1016173"
+    },
+    {
+      "path": "source/ntdll.def",
+      "bytes": 47,
+      "sha256": "3cf802a98785d9364e86e011bf984c74df4a9303db5bdb3682edce79f7024971"
+    }
+  ]
+}

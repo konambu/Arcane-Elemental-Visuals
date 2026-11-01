@@ -1,0 +1,6 @@
+{
+  "numeric_folder_resource_redirect": "passed",
+  "unrelated_module_filename": "preserved",
+  "actual_game_started": false,
+  "fcs_resource_remapping": "not exercised; real subscription test still required"
+}

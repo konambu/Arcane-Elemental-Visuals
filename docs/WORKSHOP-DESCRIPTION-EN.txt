@@ -1,0 +1,27 @@
+[h1]Arcane Elemental Visuals[/h1]
+A visual add-on for Arcane Magic - Wizards of Kenshi.
+[list]
+[*]Arcane Missile: red-orange fireballs, embers, a larger backward flame and impact fire.
+[*]Earth Spike: matte branched rock, about 1.5x exposed height, dust and debris.
+[*]Whirlwind: a spiral of fire, smoke and embers.
+[/list]
+Damage, mana, attack radius, speed and unlock conditions are unchanged.
+
+[h2]Requirements[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3784221846]Arcane Magic - Wizards of Kenshi[/url]
+[url=https://github.com/BFrizzleFoShizzle/RE_Kenshi#installation]RE_Kenshi, including KenshiLib[/url] — install this runtime separately.
+Load ArcaneMagic.mod before Arcane Elemental Visuals.mod. Fully restart after installation or updates.
+
+[h2]Beta compatibility[/h2]
+Inspected runtime: Kenshi 1.0.65 x64, RE_Kenshi 0.3.5, KenshiLib 0.5.0.
+Original-mod/engine updates may require a compatibility update.
+The fireball body can remain at a hit location. The player has confirmed the new v4 missile flame's appearance in Kenshi; subscription installation still needs end-to-end verification.
+Standalone resource previews are not game screenshots; game lighting and interior masking can differ.
+
+[h2]Source and credits[/h2]
+Complete corresponding source for both DLLs and build instructions are included in source/.
+Code: GPLv3. See CREDITS.txt for separate asset attribution and permissions.
+Arcane Magic and adapted meshes/normal map: juubi23.
+Kenshi and stock visual resources: Lo-Fi Games.
+RE_Kenshi / KenshiLib: BFrizzleFoShizzle and contributors.
+Version 0.1.0-beta1
