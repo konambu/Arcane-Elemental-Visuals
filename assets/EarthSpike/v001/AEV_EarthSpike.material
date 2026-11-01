@@ -1,0 +1,26 @@
+import * from "objects.material"
+material EV_EarthSpike_Charcoal_v001 : StaticObject
+{
+    technique
+    {
+        pass
+        {
+            fragment_program_ref Object_FP
+            {
+                param_named glossMult float 0.025
+            }
+            texture_unit diffuseMap
+            {
+                texture AEV_EarthRock_v2.dds
+            }
+            texture_unit normalMap
+            {
+                texture AEV_EarthSpike_Normal.dds
+            }
+            texture_unit metalnessMap
+            {
+                texture black.dds
+            }
+        }
+    }
+}
