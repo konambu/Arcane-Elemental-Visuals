@@ -1,0 +1,12 @@
+/build/
+/out/
+__pycache__/
+*.pyc
+*.log
+*.obj
+*.lib
+*.exp
+*.bak
+*.info
+.DS_Store
+Thumbs.db
