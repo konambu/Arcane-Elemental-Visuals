@@ -19,6 +19,7 @@ The fireball body can remain at a hit location. The player has confirmed the new
 Standalone resource previews are not game screenshots; game lighting and interior masking can differ.
 
 [h2]Source and credits[/h2]
+Special thanks to juubi23 for creating Arcane Magic - Wizards of Kenshi and allowing others to build on and use parts of the project. This add-on would not exist without that work.
 Complete corresponding source for both DLLs and build instructions are included in source/.
 Code: GPLv3. See CREDITS.txt for separate asset attribution and permissions.
 Arcane Magic and adapted meshes/normal map: juubi23.
