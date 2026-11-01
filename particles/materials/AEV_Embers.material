@@ -1,0 +1,23 @@
+material AEV_EmberMat
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref Basic_Coloured_Ambient_VP {}
+            fragment_program_ref Basic_Texture_Clipped_FP_HLSL {}
+            lighting off
+            scene_blend add
+            depth_write off
+            texture_unit
+            {
+                texture AEV_Ember.dds
+                tex_address_mode clamp
+            }
+            texture_unit interiorMask
+            {
+                content_type compositor rt_interiormask
+            }
+        }
+    }
+}
