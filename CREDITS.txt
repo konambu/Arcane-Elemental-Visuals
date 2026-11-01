@@ -16,6 +16,10 @@ Author: juubi23 (juubi23-dev)
 https://steamcommunity.com/sharedfiles/filedetails/?id=3784221846
 https://github.com/juubi23-dev/ArcaneMagicNative
 
+Special thanks to juubi23 for creating Arcane Magic and allowing others to
+build on and use parts of the project. This add-on would not exist without
+that work.
+
 Adapted source assets:
 - assets/EarthSpike/v001/AM_EarthSpike_v001.mesh: geometry, material renamed.
 - assets/EarthSpike/v001/AEV_EarthRock_v3.mesh: geometry with new branches.

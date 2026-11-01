@@ -62,6 +62,13 @@ Complete corresponding source for both DLLs: `source/`.
 Build instructions: `source/BUILD.md`. Code: GPL-3.0-only (`COPYING`).
 Separate asset ownership and permissions: `CREDITS.txt`.
 
+Special thanks to [juubi23](https://steamcommunity.com/sharedfiles/filedetails/?id=3784221846)
+for creating Arcane Magic - Wizards of Kenshi and allowing others to build on
+and use parts of the project. This add-on would not exist without that work.
+
+魔法システムを制作し、派生制作・素材利用を許可してくださった原作者の
+juubi23さんに感謝します。この追加MODは原作の仕組みと素材に支えられています。
+
 日本語: Arcane Magicに依存する外見変更MODです。ミサイルを火球に、
 Earth Spikeを枝分かれした岩に、Whirlwindを火の竜巻に変更します。
 元MODより下に配置し、導入・更新後はゲームを完全に再起動してください。
