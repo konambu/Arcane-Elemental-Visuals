@@ -1,0 +1,23 @@
+Arcane Elemental Visuals - original add-on code
+Copyright (c) 2026 Arcane Elemental Visuals contributors
+
+The original add-on code is distributed under the GNU General Public License,
+version 3 only (GPL-3.0-only). See COPYING for the complete license.
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, version 3 of the License.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program. If not, see https://www.gnu.org/licenses/.
+
+The earlier original-code MIT notice is retained in MIT-ORIGINAL-NOTICE.txt.
+The shipped plugins call the GPLv3 KenshiLib API; distribution of the plugin
+work follows GPLv3. This notice does not relicense third-party assets.
+Original Arcane Magic meshes and normal map remain credited to juubi23 under
+the permission statement on the original Workshop page. See CREDITS.txt in
+the distribution root for asset attribution and dependency links.
