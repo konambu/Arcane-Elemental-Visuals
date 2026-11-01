@@ -1,0 +1,25 @@
+system AEV_Embers
+{
+    category kenshi_particles
+    technique
+    {
+        visual_particle_quota 96
+        material AEV_EmberMat
+        default_particle_width 3
+        default_particle_height 3
+        default_particle_depth 1
+        renderer Billboard
+        {
+        }
+        emitter Point Ember
+        {
+            emission_rate 60
+            direction 0 1 0
+            angle 25
+            time_to_live 1
+            velocity 8
+            all_particle_dimensions 3
+            colour 1 0.45 0.08 1
+        }
+    }
+}

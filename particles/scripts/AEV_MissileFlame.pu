@@ -1,0 +1,114 @@
+// +Y is rotated by the companion to face backwards along actual flight motion.
+system AEV_MissileFlame
+{
+    category kenshi_particles
+    technique BurningShell
+    {
+        visual_particle_quota 32
+        material Flame1
+        renderer Billboard
+        {
+            render_queue_group 84
+            billboard_type oriented_self
+        }
+        emitter Point Core
+        {
+            emission_rate 50
+            direction 0 1 0
+            angle 15
+            keep_local true
+            time_to_live 0.18
+            velocity 3
+            particle_width 5.5
+            particle_height 6.5
+        }
+        affector Colour
+        {
+            time_colour 0 0.8 0.09 0.005 0
+            time_colour 0.12 1 0.35 0.025 1
+            time_colour 0.65 1 0.17 0.008 1
+            time_colour 1 0 0 0 0
+        }
+    }
+    technique FlameSpiral
+    {
+        visual_particle_quota 64
+        material Flame1
+        renderer Billboard
+        {
+            render_queue_group 84
+            billboard_type oriented_self
+        }
+        emitter Circle TrailingFire
+        {
+            emission_rate 75
+            direction 0 1 0
+            angle 5
+            radius 1.25
+            emit_random false
+            step 0.09
+            keep_local true
+            time_to_live dyn_random
+            {
+                min 0.2
+                max 0.35
+            }
+            velocity dyn_random
+            {
+                min 20
+                max 30
+            }
+            particle_width dyn_random
+            {
+                min 3.5
+                max 5
+            }
+            particle_height dyn_random
+            {
+                min 5.5
+                max 8
+            }
+        }
+        affector Vortex
+        {
+            rotation_axis 0 1 0
+            rotation_speed 6
+        }
+        affector Colour
+        {
+            time_colour 0 0.7 0.06 0.003 0
+            time_colour 0.1 1 0.32 0.025 1
+            time_colour 0.5 1 0.19 0.008 1
+            time_colour 1 0 0 0 0
+        }
+    }
+    technique HotTrail
+    {
+        visual_particle_quota 32
+        material kenshi_smoke2_add
+        renderer Billboard
+        {
+            render_queue_group 84
+            billboard_type oriented_self
+        }
+        emitter Circle HotAir
+        {
+            emission_rate 32
+            direction 0 1 0
+            angle 8
+            radius 0.7
+            keep_local true
+            time_to_live 0.35
+            velocity 26
+            particle_width 3.5
+            particle_height 6
+        }
+        affector Colour
+        {
+            time_colour 0 0 0 0 0
+            time_colour 0.12 0.65 0.1 0.005 1
+            time_colour 0.55 0.35 0.025 0.001 1
+            time_colour 1 0 0 0 0
+        }
+    }
+}
